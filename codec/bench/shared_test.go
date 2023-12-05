@@ -49,7 +49,7 @@ import (
 	"sync"
 )
 
-import . "github.com/ugorji/go/codec"
+import . "github.com/NebojsaHorvat/go-codec/codec"
 
 type testHED struct {
 	H Handle

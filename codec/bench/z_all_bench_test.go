@@ -1,5 +1,5 @@
-// +build alltests
-// +build go1.7
+//go:build alltests && go1.7
+// +build alltests,go1.7
 
 // Copyright (c) 2012-2020 Ugorji Nwoke. All rights reserved.
 // Use of this source code is governed by a MIT license found in the LICENSE file.
@@ -15,7 +15,7 @@ import (
 	"time"
 )
 
-import . "github.com/ugorji/go/codec"
+import . "github.com/NebojsaHorvat/go-codec/codec"
 
 var benchmarkGroupOnce sync.Once
 

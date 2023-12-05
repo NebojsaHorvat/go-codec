@@ -1,5 +1,3 @@
 module github.com/NebojsaHorvat/go-codec
 
 go 1.11
-
-require github.com/ugorji/go/codec v1.1.13
